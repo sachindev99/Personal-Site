@@ -1,0 +1,43 @@
+body
+{
+    /*background-image:url(images/background.jpg);*/
+    background-color: #EAF6F6;
+    background-repeat:no-repeat;
+    /*to cover the whole screen set background-size to cover */
+    background-size: cover;
+    height:100%; 
+    /*object-fit: fill;*/
+    
+}
+
+/* pseudo class */
+a:hover
+{
+    background-color:bisque;
+}
+
+a:visited
+{
+    text-decoration: inherit;
+}
+hr
+{
+    border-style: none; /*change the entire border style to none */
+    border-top-style: dotted; /* just change the top border style to dotted */
+    width:5%;
+    border-color: grey;
+    border-width: 5px; /* to make dots bigger */ 
+}
+img
+{
+    height: 200px;
+}
+h1
+{
+    color: #005555;
+    font-weight: bold; 
+}
+h3
+{
+    color: #005555;
+}
